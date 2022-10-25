@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>ASP.NET CORE.FORMULARIO</title>
+    <meta name ="author" content ="Iván Vega Prieto" />
+    <meta name ="description" content ="página que te hace unas preguntas sobre tu
+    opinión de la página" />
+    <meta name ="keywords" content ="Formulario,preguntas,usuario,consumidor,opinión" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <nav><a accesskey="I" tabindex="1" title = "indice" href="index.html">Índice </a>
+        <a accesskey="Q" tabindex="2" title = "información acerca del framework " href="queEs.html">Qué es </a>
+         <a accesskey="H" tabindex="3" title = "historia" href="historia.html">Historia</a>
+         <a accesskey="V" tabindex="4" title = "versiones" href="versiones.html"> Versiones</a>
+         <a accesskey="F" tabindex="5" title = "formulario" href="cuestionario.html"> Formulario</a>
+        <a accesskey="B" tabindex="6" title = "bibliografía" href="bibliografia.html"> Bibliografía</a></nav>
+    <header>
+    
+        <h1>ASP.NET Core</h1>
+       
+       </header>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <main>
+    
+   
+        <h2>Formulario</h2>
+    <p>Este es un simple formulario en el que usted introducirá su opinión de esta página 
+        mediante unas preguntas
+        </p>
+    
+    
+    <section>
+        <h3>Preguntas</h3>
+        <form>
+            <p><label for="name">Nombre de usuario: <input id = "name"></label></p>
+            <fieldset>
+             <legend> La presentación le ha parecido </legend>
+             <p><label for="MuyBuena"> <input id= "MuyBuena" type=radio name=size> Muy buena </label></p>
+             <p><label for="Buena"> <input id= "Buena" type=radio name=size> Buena </label></p>
+             <p><label for="Normal"> <input id="Normal" type=radio name=size> Normal </label></p>
+             <p><label for="Mala"> <input id = "Mala" type=radio name=size> Mala </label></p>
+             <p><label for="MuyMala"> <input id= "MuyMala" type=radio name=size>Muy mala</label></p>
+            </fieldset>
+            
+            <fieldset>
+             <legend>Seleccione tu sección/secciones favoritas</legend>
+             <p><label for = "Historia"> <input id="Historia" type=checkbox> Historia</label></p>
+             <p><label for="Versiones"> <input id="Versiones" type=checkbox> Versiones </label></p>
+             <p><label for="Indice"> <input id="Indice" type=checkbox> Índice </label></p>
+             <p><label for="QueEs"> <input id="QueEs" type=checkbox> Qué es</label></p>
+            </fieldset>
+            <p><label for="slide">Grado de satisfaccion</label> <input id="slide" type="range">
+            </p>
+            <p><label for="Hora">A qué hora está viendo esta página <input id="Hora" type=time min="00:00" max="23:59" step="900"></label></p>
+            <p><label for="Decir">Algo que decir acerca de la página web: <textarea id="Decir"></textarea></label></p>
+            <p> <label for="num">Nota del 1 al 10:</label> <input id="num" type="number" /> </p>
+            <input type="submit" value="Enviar" />
+           </form>
+    </section>
+   
+</main>
+    <footer>
+        <img src="multimedia/imagenes/HTML5.png" alt=" HTML5 Válido!" />
+        <img src="multimedia/imagenes/CSS3.png"  alt="CSS Válido!"  />
+        <p> Iván Vega Prieto. Escuela Ingeniería Informática 2022/2023</p>
+  </footer>
+    
+</body>
+</html>

@@ -1,0 +1,62 @@
+/*Iván Vega Prieto UO282394*/
+/*Especificidad: 001*/
+body{
+    display : grid;
+    grid-template-areas: 
+    '. navegador navegador navegador . '
+    'cabecera cabecera cabecera cabecera cabecera '
+    'contenido contenido contenido contenido contenido'
+    'pie pie pie pie pie'
+    ;
+   
+   
+}
+main{
+ 
+    grid-area: contenido;
+    
+}
+
+/*Especificidad: 001*/
+section{
+    
+    padding-top: 0.4vw;
+    padding-bottom: 1.5vw;
+}
+a{
+    margin-bottom: 0.7em;
+}
+/*Especificidad: 001*/
+nav{
+  
+    grid-area : navegador;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+    padding-top: 0.2vw;
+    padding-bottom: 0.4em;
+   
+   
+   
+   }
+
+/*Especificidad: 001*/
+header{
+    grid-area: cabecera;
+    
+  
+    
+    padding-bottom: 2.55em;
+  border-top-style: solid;
+  border-top-color: black;
+}
+/*Especificidad: 001*/
+footer{
+   
+    grid-area : pie;
+    display:flex;
+   
+}
+
+
+

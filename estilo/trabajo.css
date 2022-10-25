@@ -1,0 +1,50 @@
+/*Especificidad: 001*/
+header {
+    
+    background-color: rgba(57, 35, 147, 0.371);
+    }
+  /*Especificidad: 001*/
+ article {
+    
+    background-color:#FF5733; 
+  
+     
+ }
+ /*Especificidad: 001*/
+section{
+    background-color: rgba(150, 78, 33, 0.638);
+}
+/*Especificidad: 001*/
+article{
+    background-color: rgba(198, 23, 93, 0.638);
+}
+/*Especificidad: 001*/
+footer{
+    background-color: rgba(23, 198, 43, 0.638);
+}
+/*Especificidad: 001*/
+main{
+    background-color: rgba(23, 172, 198, 0.638);
+}
+  /*Especificidad: 001*/
+body{
+    background-color: rgba(23, 172, 198, 0.638);
+}
+/*Especificidad: 001*/
+ul{
+    display :grid;
+}
+
+/*Especificidad: 001*/
+nav{
+    border-width : 0.2em;
+    border-color : red;
+   border-style : solid;
+    margin-left : 33ch;
+    margin-right : 60ex;
+    
+}
+/*Especificidad: 001*/
+a{
+    padding-right: 2.5rem;
+}
